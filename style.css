@@ -1,0 +1,23 @@
+*
+{
+    height: 100%;
+}
+div{
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header header header'
+    'aside aside nav nav nav nav nav nav'
+    'aside aside section1 section1 section1 section2 section2 section2'
+    'aside aside section1 section1 section1 section2 section2  section2'
+    'aside aside article1 article2 article3 article3 article4 article5'
+    'aside aside article6 article7 article8 article8 article9 article10'
+    'footer footer footer footer footer footer footer footer'
+
+    ;
+    gap:10px
+}
+
+.footer{
+    height: 50px;
+}
